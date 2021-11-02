@@ -401,6 +401,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom-caf/bootctrl \
     hardware/xiaomi
 
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI
+
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \
