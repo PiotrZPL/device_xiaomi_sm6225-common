@@ -320,7 +320,8 @@ PRODUCT_PACKAGES += \
     SystemUISM6225 \
     TelephonySM6225 \
     WifiSM6225 \
-    NotchBarKiller
+    NotchBarKiller \
+    WifiCommon
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
