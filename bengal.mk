@@ -358,7 +358,9 @@ PRODUCT_COPY_FILES += \
 # Perf
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
-    $(LOCAL_PATH)/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml
+    $(LOCAL_PATH)/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
+    $(LOCAL_PATH)/perf/GameOptimizationFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/GameOptimizationFeature.xml
+
 
 # QMI
 PRODUCT_PACKAGES += \
