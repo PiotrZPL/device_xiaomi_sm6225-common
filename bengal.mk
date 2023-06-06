@@ -321,6 +321,7 @@ PRODUCT_PACKAGES += \
     TelephonySM6225 \
     WifiSM6225 \
     NotchBarKiller \
+    Aperture \
     WifiCommon
 
 # Partitions
