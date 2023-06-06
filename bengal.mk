@@ -366,7 +366,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
     $(LOCAL_PATH)/perf/GameOptimizationFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/GameOptimizationFeature.xml
 
-
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
@@ -387,6 +386,7 @@ PRODUCT_PACKAGES += \
 
 # Rootdir
 PRODUCT_PACKAGES += \
+    init.goodix.events.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.sh \
