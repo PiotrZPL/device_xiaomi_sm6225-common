@@ -341,7 +341,7 @@ PRODUCT_PACKAGES += \
     WifiSM6225 \
     NotchBarKiller \
     Aperture \
-    WifiCommon
+    BoostFrameworkOverlay
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
