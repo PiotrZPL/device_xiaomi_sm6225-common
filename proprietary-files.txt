@@ -13,6 +13,12 @@ vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libadsprpc.so
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
+# Audio Conf
+vendor/odm/etc/audio_policy_engine_configuration_mi.xml:odm/etc/audio_policy_engine_configuration_mi.xml
+vendor/odm/etc/audio_policy_engine_default_stream_volumes_mi.xml:odm/etc/audio_policy_engine_default_stream_volumes_mi.xml
+vendor/odm/etc/audio_policy_engine_product_strategies_mi.xml:odm/etc/audio_policy_engine_product_strategies_mi.xml
+vendor/odm/etc/audio_policy_engine_stream_volumes_mi.xml:odm/etc/audio_policy_engine_stream_volumes_mi.xml
+
 # Alarm
 -product/app/PowerOffAlarm/PowerOffAlarm.apk
 system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar
