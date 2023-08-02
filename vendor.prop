@@ -176,6 +176,12 @@ vendor.display.use_smooth_motion=0
 vendor.gralloc.disable_ubwc=0
 vendor.gralloc.secure_preview_buffer_format=420_sp
 
+# Display sf phase offset as duration
+debug.sf.high_fps_early_gl_phase_offset_ns=-5000000
+debug.sf.high_fps_early_phase_offset_ns=-5000000
+debug.sf.high_fps_late_app_phase_offset_ns=1000000
+debug.sf.high_fps_late_sf_phase_offset_ns=-5000000
+
 # Display calib
 ro.vendor.display.sensortype=2
 ro.vendor.display.svi=1
