@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from miui_SPESGlobal_V13.0.6.0.SGCMIXM_d8718d8a07_12.0
+# All unpinned blobs below are extracted from miui_SPESGlobal_V14.0.2.0.TGCMIXM_f4e2e7b209_13.0
 
 # ADSP
 vendor/bin/adsprpcd
@@ -758,8 +758,8 @@ vendor/radio/qcril_database/upgrade/13_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/14_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/15_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/16_version_update_ecc_table.sql
-vendor/radio/qcril_database/upgrade/17_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/18_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/19_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/1_version_intro.sql
 vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql
 vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql
@@ -776,6 +776,7 @@ vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc
 vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml
 vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
+vendor/lib64/sensors.touch.detect.so
 
 # Secure element
 vendor/lib/android.hardware.secure_element@1.0-impl.so
@@ -805,7 +806,6 @@ vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 
 # Soter
--vendor/app/SoterService/SoterService.apk
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
@@ -816,6 +816,12 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
+
+# Thermal
+vendor/etc/thermal-navigation.conf
+vendor/etc/thermal-video.conf
+vendor/etc/thermal-videochat.conf
+vendor/etc/thermal-youtube.conf
 
 # Touch Firmware
 vendor/firmware/Conf_MultipleTest.ini
