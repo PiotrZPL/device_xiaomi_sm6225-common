@@ -260,3 +260,6 @@ on property:sys.tp.grip_enable=180
     write /proc/tp_grip_area 180
 on property:sys.tp.grip_enable=270
     write /proc/tp_grip_area 270
+
+on property:vendor.fps_hal.restartimes=max
+    stop vendor.fps_hal
