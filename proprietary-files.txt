@@ -934,6 +934,9 @@ vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
 
+# Thermal - from SPESNGlobal_V13.0.7.0.SGKMIXM
+vendor/etc/thermal-normal.conf|bf660aacd130bbab178597b18e33f0ee492db39f
+
 # Thermal
 vendor/etc/thermal-navigation.conf
 vendor/etc/thermal-video.conf
